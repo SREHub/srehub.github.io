@@ -26,7 +26,7 @@ jobs:
         gitbook install ./
         gitbook build
         echo 'www.srehub.com' > _book/CNAME
-	echo 'fb296d0e551f945f5f5b9f20ceff2e77' > _book/OrxmJuTJbE.txt
+        echo 'fb296d0e551f945f5f5b9f20ceff2e77' > _book/OrxmJuTJbE.txt
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2
