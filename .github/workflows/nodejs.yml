@@ -25,7 +25,7 @@ jobs:
         npm install -g gitbook-cli
         gitbook install ./
         gitbook build
-	echo 'www.srehub.com' > _book/CNAME
+        echo 'www.srehub.com' > _book/CNAME
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2
