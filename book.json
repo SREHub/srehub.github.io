@@ -1,0 +1,65 @@
+{
+  "title": "airdb",
+  "description": "gitbook",
+  "language": "en-us",
+  "plugins": [
+    "expandable-chapters",
+    "anchors",
+    "github",
+    "custom-favicon",
+    "prism", "-highlight",
+    "-lunr", "-search", "-search-pro", "search-plus",
+    "codesnippet",
+    "splitter",
+    "page-toc-button",
+    "image-captions",
+    "page-footer-ex",
+    "tags",
+    "multipart",
+    "-sharing",
+    "theme-comscore",
+    "gittalk"
+  ],
+  "pdf": {
+    "toc": true,
+    "pageNumbers": true,
+    "fontSize": 11
+  },
+  "pluginsConfig": {
+    "favicon": "favicon.ico",
+    "image-captions": {
+          "caption": "image - _CAPTION_"
+    },
+    "page-toc-button": {
+      "maxTocDepth": 2,
+      "minTocSize": 2
+   	},
+    "expandable-chapters":{
+    },
+    "github": {
+      "url": "https://github.com/airdb-wiki/airdb-wiki.github.io"
+    },
+    "page-footer-ex":{
+        "copyright":"Copyright © 2015-present airdb.",
+        "update_label":"LastUpdated: ",
+        "update_format":"YYYY-MM-DD HH:mm:ss"
+    },
+    "tags": {
+        "placement": "bottom"
+    },
+    "sharing": {
+            "facebook": false,
+            "twitter": false,
+            "google": false,
+            "all": [ "weibo", "instapaper" ]
+     },
+    "gittalk": {
+      "clientID": "82d2a29103bc197c3bb4",
+      "clientSecret": "70dde8b91462a8dd50f72f20e7506ce898aa4939",
+      "repo": "airdb-wiki.github.io",
+      "owner": "airdb-wiki",
+      "admin": ["deancn"],
+      "distractionFreeMode": false 
+    }
+  }
+}
