@@ -1,3 +1,8 @@
-.idea/*
-_book
-node_modules
+node_modules/
+.temp/
+docs-dist/
+*.log
+
+dist
+.vscode/
+.npmrc
