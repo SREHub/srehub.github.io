@@ -2,6 +2,8 @@ dev:
 	pnpm docs:dev
 
 build:
+	export NODE_OPTIONS=--openssl-legacy-provider
+
 	pnpm i
 	pnpm docs:build
 
